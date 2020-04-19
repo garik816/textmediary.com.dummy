@@ -1,0 +1,8 @@
+/*Стили для портретной ориентации*/
+@media (max-width: 480px) and (orientation: portrait), (max-device-width: 480px) and (orientation: portrait){
+
+}
+/*Стили ландшафтной ориентации*/
+@media (max-width: 900px) and (orientation: landscape), (max-device-width: 900px) and (orientation: landscape){
+
+}

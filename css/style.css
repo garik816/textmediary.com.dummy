@@ -42,6 +42,7 @@
 
 .message p{
     padding: 0 15%;
+    margin: 0 0 7px 0;
 }
 
 .round {
@@ -62,7 +63,7 @@
 .message contacts{
     float: right; /* Обтекание по правому краю */
     /*padding: 3px; !* Поля вокруг текста *!*/
-    margin-left: 10px; /* Отступ справа */
+    margin-left: 0; /* Отступ справа */
     width: 30%; /* Ширина блока */
     /*float: bottom;*/
 }
