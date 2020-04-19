@@ -42,16 +42,35 @@
 
 .round {
     border-radius: 8px; /* Радиус скругления */
-    /*border: 3px solid green; !* Параметры рамки *!*/
-    /*box-shadow: 0 0 7px #666; !* Параметры тени *!*/
 }
 
 .message social{
-    display: block;
+    position: absolute;
+    left: 5px;
+    bottom: 0;
+    /*float: left; !* Обтекание по правому краю *!*/
+    /*padding: 3px; !* Поля вокруг текста *!*/
+    /*margin-left: 3px; !* Отступ справа *!*/
+    /*height: 10%; !* Ширина блока *!*/
 }
 
 .message contacts{
-    display: block;
+    float: right; /* Обтекание по правому краю */
+    /*padding: 3px; !* Поля вокруг текста *!*/
+    margin-left: 10px; /* Отступ справа */
+    width: 30%; /* Ширина блока */
+    /*float: bottom;*/
+}
+
+.inline_left{
+    display: inline-flex;
+    align-self: flex-start;
+}
+
+.inline_right{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 7px;
 }
 
 .pricelist{
@@ -99,6 +118,6 @@
     margin: 0px;
 }
 
-.copyright p1 {
+.copyright uppercase {
     text-transform: uppercase;
 }
