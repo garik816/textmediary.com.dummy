@@ -1,15 +1,26 @@
 ﻿.heading{
     display: block;
     background: #000000; /* Цвет фона под заголовком */
-    height: 75px;
+    height: 95px;
     width: 100%;
     position: absolute;
-    top: 3%;
+    top: 5%;
     margin: 0px 0px 0px -8px;
     padding: 0px;
 }
 
-.heading p{
+.heading h1{
+    color: #000000; /* Цвет текста */
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 62%;
+    position: absolute;
+    top: 90%;
+    right: 10.3%;
+    margin: 0 0 0 0;
+    transform: translate(0%, -50%);
+}
+
+.heading logo{
     color: #FFFFFF; /* Цвет текста */
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     font-size: 47px;
@@ -29,8 +40,7 @@
 
 .message{
     display: block;
-    background: #000000; /* Цвет фона под заголовком */
-    opacity: 0.85;
+    background: rgba(0, 0, 0, 0.88);
     color: #FFFFFF; /* Цвет текста */
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     text-align: center;
@@ -56,7 +66,6 @@
     left: 5px;
     bottom: 5px;
     margin-right: 12em;
-    opacity: 1;
     /*float: left; !* Обтекание по правому краю *!*/
     /*padding: 3px; !* Поля вокруг текста *!*/
     /*margin-left: 3px; !* Отступ справа *!*/
@@ -82,6 +91,10 @@
     padding-right: 7px;
 }
 
+.banner{
+
+}
+
 .pricelist{
     display: block;
     background: #000000; /* Цвет фона под заголовком */
@@ -89,7 +102,7 @@
 
     top: 80%;
     left: 17%;
-    margin-left: -70px;
+    margin-left: -80px;
     padding: 0px 37px;
     text-transform: uppercase;
     color: #FFFFFF; /* Цвет текста */
@@ -102,7 +115,7 @@
     position: absolute;
     top: 80%;
     right: 17%;
-    margin-right: -85px;
+    margin-right: -58px;
     padding: 0px 17px;
     text-transform: uppercase;
     color: #FFFFFF; /* Цвет текста */
@@ -125,9 +138,9 @@ img{
     background: #000000; /* Цвет фона под заголовком */
     width: 100%;
     position: absolute;
-    bottom: 3%;
+    bottom: 4%;
     margin: 0px 0px 0px -8px;
-    padding: 3px 0;
+    padding: 6px 0;
     font-size: 14px;
 }
 
