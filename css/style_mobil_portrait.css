@@ -1,19 +1,63 @@
 /*Стили для портретной ориентации*/
-@media (max-width: 480px) and (orientation: portrait), (max-device-width: 480px) and (orientation: portrait){
+@media (orientation: portrait) {
 
-    .message{
+    .message {
         display: block;
         background: rgba(0, 0, 0, 0.88);
         color: #FFFFFF; /* Цвет текста */
         font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
         text-align: center;
         position: absolute;
-        height: 500px;
         top: 50%;
-        left: 1%;
-        right: 1%;
-        /*transform: translate(0%, -50%);*/
-        transform: scale(0.66) translate(0%, -75%);
+        left: 23%;
+        right: 23%;
+        transform: scale(1.3) translate(0%, -40%)
     }
 
+    .banners{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, 0%)
+    }
+
+    .banner{
+        /*flex: 1 1 1;*/
+        margin: 0 15px;
+    }
+
+    .flex-container{
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    .pricelist {
+        display: block;
+        background: #000000; /* Цвет фона под заголовком */
+        position: absolute;
+
+        top: 90%;
+        left: 17%;
+        margin-left: -63px;
+        padding: 0px 18.5px;
+        text-transform: uppercase;
+        color: #FFFFFF; /* Цвет текста */
+        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    }
+
+    .requisites {
+        display: block;
+        background: #000000; /* Цвет фона под заголовком */
+        position: absolute;
+        top: 90%;
+        right: 17%;
+        margin-right: -61px;
+        padding: 0px 21px;
+        text-transform: uppercase;
+        color: #FFFFFF; /* Цвет текста */
+        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    }
 }

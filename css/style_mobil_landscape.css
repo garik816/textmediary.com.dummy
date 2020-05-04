@@ -1,9 +1,7 @@
 /*Стили ландшафтной ориентации*/
-@media (max-width: 900px) and (orientation: landscape), (max-device-width: 900px) and (orientation: landscape){
+@media (max-width: 600px) and (orientation: landscape), (max-device-width: 600px) and (orientation: landscape) {
 
-
-
-    .message{
+    .message {
         display: block;
         background: rgba(0, 0, 0, 0.88);
         color: #FFFFFF; /* Цвет текста */
@@ -13,8 +11,7 @@
         top: 50%;
         left: 1%;
         right: 1%;
-        /*transform: translate(0%, -50%);*/
-        transform: scale(0.66) translate(0%, -75%);
+        transform: scale(0.66) translate(0%, -66%)
     }
 
 }
