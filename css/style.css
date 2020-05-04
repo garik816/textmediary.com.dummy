@@ -15,8 +15,8 @@
     font-size: 62%;
     position: absolute;
     top: 90%;
-    right: 10.3%;
-    margin: 0 0 0 0;
+    right: 17%;
+    margin: 0 -7.35rem 0 0;
     transform: translate(0%, -50%);
 }
 
@@ -27,14 +27,14 @@
     position: absolute;
     top: 50%;
     right: 17%;
-    margin: 0 -2em 0 0;
+    margin: 0 -111px 0 0;
     transform: translate(0%, -50%);
 }
 .heading img{
     position: absolute;
     top: 50%;
     left: 17%;
-    margin: 0 0 0 -65px;
+    margin: 0 0 0 -78px;
     transform: translate(0%, -50%);
 }
 
@@ -51,10 +51,14 @@
     transform: translate(0%, -50%)
 }
 
+.message h2 {
+    margin: 11px 0 11px 0;
+}
+
 .message p{
     padding: 0 9%;
     font-size: 18px;
-    margin: 0 0 13px 0;
+    margin: 0 0 0 0;
 }
 
 .round {
@@ -91,8 +95,24 @@
     padding-right: 7px;
 }
 
-.banner{
+.banners{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, 0%)
+}
 
+.banner{
+    /*flex: 1 1 1;*/
+    margin: 0 15px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
 
 .pricelist{
@@ -102,8 +122,8 @@
 
     top: 80%;
     left: 17%;
-    margin-left: -80px;
-    padding: 0px 37px;
+    margin-left: -63px;
+    padding: 0px 18.5px;
     text-transform: uppercase;
     color: #FFFFFF; /* Цвет текста */
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
@@ -115,8 +135,8 @@
     position: absolute;
     top: 80%;
     right: 17%;
-    margin-right: -58px;
-    padding: 0px 17px;
+    margin-right: -61px;
+    padding: 0px 21px;
     text-transform: uppercase;
     color: #FFFFFF; /* Цвет текста */
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
@@ -138,7 +158,7 @@ img{
     background: #000000; /* Цвет фона под заголовком */
     width: 100%;
     position: absolute;
-    bottom: 4%;
+    bottom: 2%;
     margin: 0px 0px 0px -8px;
     padding: 6px 0;
     font-size: 14px;
