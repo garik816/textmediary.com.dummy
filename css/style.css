@@ -1,11 +1,14 @@
-﻿.heading{
+﻿body{
+    margin: 0;
+}
+.heading{
     display: block;
     background: #000000; /* Цвет фона под заголовком */
     height: 95px;
     width: 100%;
-    position: absolute;
-    top: 5%;
-    margin: 0px 0px 0px -8px;
+    position: relative;
+    top: 2rem;
+    margin: 0;
     padding: 0px;
 }
 
@@ -70,18 +73,12 @@
     left: 5px;
     bottom: 5px;
     margin-right: 12em;
-    /*float: left; !* Обтекание по правому краю *!*/
-    /*padding: 3px; !* Поля вокруг текста *!*/
-    /*margin-left: 3px; !* Отступ справа *!*/
-    /*height: 10%; !* Ширина блока *!*/
 }
 
 .message contacts{
     float: right; /* Обтекание по правому краю */
-    /*padding: 3px; !* Поля вокруг текста *!*/
     margin-left: 0; /* Отступ справа */
     width: 30%; /* Ширина блока */
-    /*float: bottom;*/
 }
 
 .inline_left{
