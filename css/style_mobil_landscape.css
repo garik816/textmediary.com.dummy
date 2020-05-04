@@ -1,5 +1,46 @@
 /*Стили ландшафтной ориентации*/
-@media (max-width: 600px) and (orientation: landscape), (max-device-width: 600px) and (orientation: landscape) {
+@media (max-height: 600px) and (orientation: landscape), (max-device-height: 600px) and (orientation: landscape) {
+
+    .heading{
+        display: block;
+        background: #000000; /* Цвет фона под заголовком */
+        height: 45px;
+        width: 100%;
+        position: relative;
+        top: 2rem;
+        margin: 0;
+        padding: 0px;
+    }
+
+    .heading h1{
+        color: #000000; /* Цвет текста */
+        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+        font-size: 62%;
+        position: absolute;
+        top: 90%;
+        right: 17%;
+        margin: 0 -7.35rem 0 0;
+        transform: translate(0%, -50%);
+    }
+
+    .heading logo{
+        color: #FFFFFF; /* Цвет текста */
+        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+        font-size: 28px;
+        position: absolute;
+        top: 50%;
+        right: 17%;
+        margin: 0 -66px 0 0;
+        transform: translate(0%, -50%);
+    }
+    .heading img{
+        position: absolute;
+        height: 40px;
+        top: 50%;
+        left: 17%;
+        margin: 0 0 0 -32px;
+        transform: translate(0%, -50%);
+    }
 
     .message {
         display: block;
@@ -11,7 +52,54 @@
         top: 50%;
         left: 1%;
         right: 1%;
-        transform: scale(0.66) translate(0%, -66%)
+        transform: scale(0.66) translate(0%, -85%)
+    }
+
+    .banners{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, 0%)
+    }
+
+    .banner{
+        /*flex: 1 1 1;*/
+        margin: 0 15px;
+    }
+
+    .flex-container{
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    .pricelist{
+        display: block;
+        background: #000000; /* Цвет фона под заголовком */
+        position: absolute;
+
+        top: 75%;
+        left: 17%;
+        margin-left: -63px;
+        padding: 0px 18.5px;
+        text-transform: uppercase;
+        color: #FFFFFF; /* Цвет текста */
+        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    }
+
+    .requisites{
+        display: block;
+        background: #000000; /* Цвет фона под заголовком */
+        position: absolute;
+        top: 75%;
+        right: 17%;
+        margin-right: -61px;
+        padding: 0px 21px;
+        text-transform: uppercase;
+        color: #FFFFFF; /* Цвет текста */
+        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     }
 
 }

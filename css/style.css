@@ -156,7 +156,7 @@ img{
     width: 100%;
     position: absolute;
     bottom: 2%;
-    margin: 0px 0px 0px -8px;
+    margin: 0;
     padding: 6px 0;
     font-size: 14px;
 }
