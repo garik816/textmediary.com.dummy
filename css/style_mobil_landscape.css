@@ -4,10 +4,10 @@
     .heading{
         display: block;
         background: #000000; /* Цвет фона под заголовком */
-        height: 45px;
+        height: 62px;
         width: 100%;
         position: relative;
-        top: 2rem;
+        top: 1rem;
         margin: 0;
         padding: 0px;
     }
@@ -26,19 +26,19 @@
     .heading logo{
         color: #FFFFFF; /* Цвет текста */
         font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-        font-size: 28px;
+        font-size: 38px;
         position: absolute;
         top: 50%;
         right: 17%;
-        margin: 0 -66px 0 0;
+        margin: 0 -80px 0 0;
         transform: translate(0%, -50%);
     }
     .heading img{
         position: absolute;
-        height: 40px;
+        height: 58px;
         top: 50%;
         left: 17%;
-        margin: 0 0 0 -32px;
+        margin: 0 0 0 -42px;
         transform: translate(0%, -50%);
     }
 
@@ -65,38 +65,37 @@
     }
 
     .banner{
-        /*flex: 1 1 1;*/
-        margin: 0 15px;
+        /*flex: 1 1 auto;*/
+        margin: 0 25px;
     }
 
     .flex-container{
         display: flex;
         justify-content: center;
-        align-items: baseline;
+        align-items: center;
     }
 
     .pricelist{
-        display: block;
+        /*display: block;*/
         background: #000000; /* Цвет фона под заголовком */
         position: absolute;
-
-        top: 75%;
-        left: 17%;
-        margin-left: -63px;
-        padding: 0px 18.5px;
+        /*top: 80%;*/
+        left: 11%;
+        margin-left: 0;
+        padding: 0 18.5px;
         text-transform: uppercase;
         color: #FFFFFF; /* Цвет текста */
         font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     }
 
     .requisites{
-        display: block;
+        /*display: block;*/
         background: #000000; /* Цвет фона под заголовком */
         position: absolute;
-        top: 75%;
-        right: 17%;
-        margin-right: -61px;
-        padding: 0px 21px;
+        /*top: 80%;*/
+        right: 11%;
+        margin-right: 0;
+        padding: 0 21px;
         text-transform: uppercase;
         color: #FFFFFF; /* Цвет текста */
         font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;

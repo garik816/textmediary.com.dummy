@@ -102,38 +102,37 @@
 }
 
 .banner{
-    /*flex: 1 1 1;*/
-    margin: 0 15px;
+    /*flex: 1 1 auto;*/
+    margin: 0 25px;
 }
 
 .flex-container{
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
 }
 
 .pricelist{
-    display: block;
+    /*display: block;*/
     background: #000000; /* Цвет фона под заголовком */
     position: absolute;
-
-    top: 80%;
-    left: 17%;
-    margin-left: -63px;
-    padding: 0px 18.5px;
+    /*top: 80%;*/
+    left: 11%;
+    margin-left: 0;
+    padding: 0 18.5px;
     text-transform: uppercase;
     color: #FFFFFF; /* Цвет текста */
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 
 .requisites{
-    display: block;
+    /*display: block;*/
     background: #000000; /* Цвет фона под заголовком */
     position: absolute;
-    top: 80%;
-    right: 17%;
-    margin-right: -61px;
-    padding: 0px 21px;
+    /*top: 80%;*/
+    right: 11%;
+    margin-right: 0;
+    padding: 0 21px;
     text-transform: uppercase;
     color: #FFFFFF; /* Цвет текста */
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
