@@ -1,6 +1,12 @@
 ﻿body{
     margin: 0;
 }
+
+::selection {
+    color: #333333; /* Цвет текста */
+    background: #FFFFFF; /* Цвет фона */
+}
+
 .heading{
     display: block;
     background: #000000; /* Цвет фона под заголовком */
@@ -79,6 +85,7 @@
     float: right; /* Обтекание по правому краю */
     margin-left: 0; /* Отступ справа */
     width: 30%; /* Ширина блока */
+    margin-bottom: 5px;
 }
 
 .inline_left{
