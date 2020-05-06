@@ -151,6 +151,10 @@ a:hover {
     text-decoration: underline; /* Добавляем подчеркивание */
 }
 
+img:hover {
+    background: #333333;
+}
+
 ::selection {
     color: #333333; /* Цвет текста */
     background: #FFFFFF; /* Цвет фона */
@@ -160,6 +164,7 @@ img{
     padding: 1px 2px;
     vertical-align: bottom;
 }
+
 
 .copyright{
     display: block;
