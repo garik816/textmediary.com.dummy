@@ -2,11 +2,6 @@
     margin: 0;
 }
 
-::selection {
-    color: #333333; /* Цвет текста */
-    background: #FFFFFF; /* Цвет фона */
-}
-
 .heading{
     display: block;
     background: #000000; /* Цвет фона под заголовком */
@@ -149,6 +144,16 @@ a {
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     color: #FFFFFF; /* Цвет текста */
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+
+a:hover {
+    color: #888888; /* Цвет ссылки при наведении на нее курсора мыши */
+    text-decoration: underline; /* Добавляем подчеркивание */
+}
+
+::selection {
+    color: #333333; /* Цвет текста */
+    background: #FFFFFF; /* Цвет фона */
 }
 
 img{
