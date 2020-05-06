@@ -1,0 +1,180 @@
+﻿body{
+    margin: 0;
+}
+
+::selection {
+    color: #333333; /* Цвет текста */
+    background: #FFFFFF; /* Цвет фона */
+}
+
+.heading{
+    display: block;
+    background: #000000; /* Цвет фона под заголовком */
+    height: 95px;
+    width: 100%;
+    position: relative;
+    top: 2rem;
+    margin: 0;
+    padding: 0px;
+}
+
+.heading h1{
+    color: #000000; /* Цвет текста */
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 62%;
+    position: absolute;
+    top: 90%;
+    right: 17%;
+    margin: 0 -7.35rem 0 0;
+    transform: translate(0%, -50%);
+}
+
+.heading logo{
+    color: #FFFFFF; /* Цвет текста */
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 47px;
+    position: absolute;
+    top: 50%;
+    right: 17%;
+    margin: 0 -111px 0 0;
+    transform: translate(0%, -50%);
+}
+.heading img{
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    margin: 0 0 0 -78px;
+    transform: translate(0%, -50%);
+}
+
+.message{
+    display: block;
+    background: rgba(0, 0, 0, 0.88);
+    color: #FFFFFF; /* Цвет текста */
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    right: 17%;
+    transform: translate(0%, -50%)
+}
+
+.message h2 {
+    margin: 11px 0 11px 0;
+}
+
+.message p{
+    padding: 0 9%;
+    font-size: 18px;
+    margin: 0 0 0 0;
+}
+
+.round {
+    border-radius: 6px; /* Радиус скругления */
+}
+
+.message social{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    margin-right: 12em;
+}
+
+.message contacts{
+    float: right; /* Обтекание по правому краю */
+    margin-left: 0; /* Отступ справа */
+    width: 30%; /* Ширина блока */
+    margin-bottom: 5px;
+}
+
+.inline_left{
+    display: inline-flex;
+    align-self: flex-start;
+}
+
+.inline_right{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 7px;
+}
+
+.banners{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, 0%)
+}
+
+.banner{
+    /*flex: 1 1 auto;*/
+    margin: 0 25px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricelist{
+    /*display: block;*/
+    background: #000000; /* Цвет фона под заголовком */
+    position: absolute;
+    /*top: 80%;*/
+    left: 11%;
+    margin-left: 0;
+    padding: 0 18.5px;
+    text-transform: uppercase;
+    color: #FFFFFF; /* Цвет текста */
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+.requisites{
+    /*display: block;*/
+    background: #000000; /* Цвет фона под заголовком */
+    position: absolute;
+    /*top: 80%;*/
+    right: 11%;
+    margin-right: 0;
+    padding: 0 21px;
+    text-transform: uppercase;
+    color: #FFFFFF; /* Цвет текста */
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+a {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    color: #FFFFFF; /* Цвет текста */
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+
+img{
+    padding: 1px 2px;
+    vertical-align: bottom;
+}
+
+.copyright{
+    display: block;
+    background: #000000; /* Цвет фона под заголовком */
+    width: 100%;
+    position: absolute;
+    bottom: 2%;
+    margin: 0;
+    padding: 6px 0;
+    font-size: 14px;
+}
+
+.copyright p {
+    text-align: center;
+    color: #FFFFFF; /* Цвет текста */
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.copyright uppercase {
+    text-transform: uppercase;
+}

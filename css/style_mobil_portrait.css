@@ -1,0 +1,169 @@
+/*Стили для портретной ориентации*/
+@media (orientation: portrait) {
+
+    ::selection {
+        color: #333333; /* Цвет текста */
+        background: #FFFFFF; /* Цвет фона */
+    }
+
+    .heading{
+        display: block;
+        background: #000000; /* Цвет фона под заголовком */
+        height: 155px;
+        width: 100%;
+        position: relative;
+        top: 3rem;
+        margin: 0;
+        padding: 0px;
+    }
+
+    .heading h1{
+        color: #000000; /* Цвет текста */
+        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+        font-size: 100%;
+        position: absolute;
+        top: 90%;
+        right: 17%;
+        margin: 0 -7rem 0 0;
+        transform: translate(0%, -50%);
+    }
+
+    .heading logo{
+        color: #FFFFFF; /* Цвет текста */
+        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+        font-size: 70px;
+        position: absolute;
+        top: 50%;
+        right: 2%;
+        margin: 0 0 0 0;
+        transform: translate(0%, -50%);
+    }
+    .heading img{
+        position: absolute;
+        height: 140px;
+        top: 50%;
+        left: 2%;
+        margin: 0;
+        transform: translate(0%, -50%);
+    }
+
+
+
+    .message {
+        display: block;
+        background: rgba(0, 0, 0, 0.88);
+        color: #FFFFFF; /* Цвет текста */
+        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        right: 10%;
+        transform: translate(0%, -50%);
+    }
+
+    .message h2 {
+        margin: 16px 0 11px 0;
+        font-size: 49px;
+    }
+
+    .message p{
+        padding: 0 4%;
+        font-size: 34px;
+        margin: 0 0 0 0;
+    }
+
+    .message social{
+        position: absolute;
+        left: 5px;
+        bottom: 5px;
+        margin-right: 12em;
+    }
+
+    .message contacts {
+        float: right; /* Обтекание по правому краю */
+        margin-left: 0; /* Отступ справа */
+        width: 30%; /* Ширина блока */
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .message social img {
+        height: 48px;
+        width: 48px;
+    }
+
+    .message contacts img {
+        height: 22px;
+        width: 22px;
+    }
+
+    .banners{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, 0%)
+    }
+
+    .banner{
+        /*flex: 1 1 auto;*/
+        margin: 0 15px;
+    }
+
+    .flex-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pricelist{
+        /*display: block;*/
+        background: #000000; /* Цвет фона под заголовком */
+        position: absolute;
+        /*top: 80%;*/
+        left: 11%;
+        margin-left: 0;
+        padding: 0 18.5px;
+        text-transform: uppercase;
+        color: #FFFFFF; /* Цвет текста */
+        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+        transform:scale(2);
+    }
+
+    .requisites{
+        /*display: block;*/
+        background: #000000; /* Цвет фона под заголовком */
+        position: absolute;
+        /*top: 80%;*/
+        right: 11%;
+        margin-right: 0;
+        padding: 0 21px;
+        text-transform: uppercase;
+        color: #FFFFFF; /* Цвет текста */
+        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+        transform:scale(2);
+    }
+
+    .copyright{
+        display: block;
+        background: #000000; /* Цвет фона под заголовком */
+        width: 100%;
+        position: absolute;
+        bottom: 2%;
+        margin: 0;
+        padding: 6px 0;
+        font-size: 14px;
+    }
+
+    .copyright p {
+        text-align: center;
+        font-size: 42px;
+        padding: 2px 0;
+        color: #FFFFFF; /* Цвет текста */
+        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+        padding: 0px;
+        margin: 0px;
+    }
+}
