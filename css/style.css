@@ -146,14 +146,16 @@ a {
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
 }
 
-a:hover {
-    color: #999999; /* Цвет ссылки при наведении на нее курсора мыши */
+.message contacts a:hover {
     text-decoration: underline; /* Добавляем подчеркивание */
 }
 
-/*img:hover {
-    background: #333333;
-}*/
+.pricelist:hover {
+    background: #999999;
+}
+.requisites:hover {
+    background: #999999;
+}
 
 ::selection {
     color: #333333; /* Цвет текста */
@@ -164,6 +166,7 @@ img{
     padding: 1px 2px;
     vertical-align: bottom;
 }
+
 
 .copyright{
     display: block;
