@@ -30,7 +30,11 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-<!--TODO: yandex метрика google analytics учёт пользователей-->
+<!--TODO: чтобы не выделялся логотип        -->
+<!--    чтобы не подсвечивались соцсети     -->
+<!--    и серые картинки                    -->
+<!--    убрать пробел в Textmediary справа  -->
+
 
     <meta charset="UTF-8">
     <title>Textmediary: производство контента от специалистов</title>
@@ -55,13 +59,15 @@
 </style>
 
 <div class="heading">
-    <logo>Textmediary</logo>
-    <h1>Textmediary: производство контента от профессионалов</h1>
+    <logo>
+        <name>&nbspTextmediary</name>
+        <h1>&nbspTextmediary: производство контента от профессионалов</h1>
+    </logo>
     <img src="./source/logoB.png" height="90">
 </div>
 
 <div class="message round">
-    <h2>Внимание!</h2>
+    <h2>&nbspВнимание!</h2>
     <p>Ведутся глобальные работы по обновляшечке сайта!</p>
     <p>В связи с этим заказать производство контента от Textmediary вы сможете только связавшись с нами по указанным здесь контактам. Ознакомиться с нашими расценками на копирайтинг, рерайтинг, корректуру, переводы, написание постов для соцсетей и метатегов для сайтов, а также на иные текстовые услуги вы сможете в нашем прайс-листе (слева внизу). А вот узреть сайт пока что не сможете. Простите.</p>
     <p>Спасибо за внимание, понимание и ожидание.</p>
@@ -70,34 +76,43 @@
 
 
     <social>
-        <div class="inline_left"><a href="https://vk.com/textmediary" target="_blank"><img src="./source/icons/official/vk.png" height="24px" width="24px"></a></div>
-        <div class="inline_left"><a href="https://www.facebook.com/textmediary/" target="_blank"><img src="./source/icons/official/facebook-192x192.png" height="24px" width="24px"></a></div>
-        <div class="inline_left"><a href="https://www.linkedin.com/company/textmediary/" target="_blank"><img src="./source/icons/official/LinkedIn_Logo_2013.svg.png" height="24px" width="24px"></a></div>
-        <div class="inline_left"><a href="https://www.pinterest.com/textmediary/" target="_blank"><img src="./source/icons/official/pinterest.png" height="24px" width="24px"></a></div>
-        <div class="inline_left"><a href="https://twitter.com/textmediary" target="_blank"><img src="./source/icons/official/Twitter_Social_Icon_Rounded_Square_Color.png" height="24px" width="24px"></a></div>
+        <div class="inline_left"><a href="https://vk.com/textmediary" target="_blank"><img src="./source/icons/vk.png" height="24px" width="24px" onmouseover="this.src='./source/icons/vk_gray.png'; this.width=24;this.height=24;" onmouseout="this.src='./source/icons/vk.png'; this.width=24;this.height=24;"></a></div>
+        <div class="inline_left"><a href="https://www.facebook.com/textmediary/" target="_blank"><img src="./source/icons/facebook-192x192.png" height="24px" width="24px" onmouseover="this.src='./source/icons/facebook-192x192_gray.png'; this.width=24;this.height=24;" onmouseout="this.src='./source/icons/facebook-192x192.png'; this.width=24;this.height=24;"></a></div>
+        <div class="inline_left"><a href="https://www.linkedin.com/company/textmediary/" target="_blank"><img src="./source/icons/LinkedIn_Logo_2013.png" height="24px" width="24px" onmouseover="this.src='./source/icons/LinkedIn_Logo_2013_gray.png'; this.width=24;this.height=24;" onmouseout="this.src='./source/icons/LinkedIn_Logo_2013.png'; this.width=24;this.height=24;"></a></div>
+        <div class="inline_left"><a href="https://www.pinterest.com/textmediary/" target="_blank"><img src="./source/icons/pinterest.png" height="24px" width="24px" onmouseover="this.src='./source/icons/pinterest_gray.png'; this.width=24;this.height=24;" onmouseout="this.src='./source/icons/pinterest.png'; this.width=24;this.height=24;"></a></div>
+        <div class="inline_left"><a href="https://twitter.com/textmediary" target="_blank"><img src="./source/icons/Twitter_Social_Icon_Rounded_Square_Color.png" height="24px" width="24px" onmouseover="this.src='./source/icons/Twitter_Social_Icon_Rounded_Square_Color_gray.png'; this.width=24;this.height=24;" onmouseout="this.src='./source/icons/Twitter_Social_Icon_Rounded_Square_Color.png'; this.width=24;this.height=24;"></a></div>
     </social>
 
     <contacts>
-        <div class="inline_right"><a href="skype:echo123?userinfo"><img src="./source/icons/official/skype-icon.png" height="16px" width="16px"></a><a href="skype:Textmediary?userinfo"><skypeCall>Textmediary</skypeCall></a></div>
-        <div class="inline_right"><a href="tel:+380935462959"><img src="./source/icons/whatsapp-png-icon-18-white-transparent.png" height="16px" width="16px"></a><a href="tel:+380935462959"><telephone>+380935462959</telephone></a></div>
-        <div class="inline_right"><a href="tel:+380975462959"><img src="./source/icons/whatsapp-png-icon-18-white-transparent.png" height="16px" width="16px"></a><a href="tel:+380975462959"><telephone>+380975462959</telephone></a></div>
-        <div class="inline_right"><a href="mailto: mail@textmediary.com"><img src="./source/icons/email.png" height="16px" width="16px"></a><a href = "mailto: mail@textmediary.com"><email>mail@textmediary.com</email></a></div>
+        <div class="inline_right"><a class="no_select" href="skype:echo123?userinfo"><img src="./source/icons/skype-icon.png" height="16px" width="16px"></a><a href="skype:Textmediary?userinfo"><skypeCall>Textmediary</skypeCall></a></div>
+        <div class="inline_right"><a class="no_select" href="tel:+380935462959"><img src="./source/icons/whatsapp-png-icon-18-white-transparent.png" height="16px" width="16px"></a><a href="tel:+380935462959"><telephone>+380935462959</telephone></a></div>
+        <div class="inline_right"><a class="no_select" href="tel:+380975462959"><img src="./source/icons/whatsapp-png-icon-18-white-transparent.png" height="16px" width="16px"></a><a href="tel:+380975462959"><telephone>+380975462959</telephone></a></div>
+        <div class="inline_right"><a class="no_select" href="mailto: mail@textmediary.com"><img src="./source/icons/email.png" height="16px" width="16px"></a><a href = "mailto: mail@textmediary.com"><email>mail@textmediary.com</email></a></div>
     </contacts>
 </div>
-
-
 
 <div class="copyright">
     <p>2013–2020 © Textmediary</p>
 </div>
 
 <div class="flex-container banners">
-    <div class="banner pricelist"><p><a href="./source/Прайс-лист%20Textmediary.pdf" target="_blank">прайс-лист</a></p></div>
-    <div class="banner"><a href="//passport.webmoney.ru/asp/certview.asp?wmid=300909355741" target="_blank"><img src="https://files.webmoney.ru/files/5xtc9oj4/inline" border="0"/></a></div>
-    <div class="banner"><a href='https://smartwm.ru/referral/8c7088b263a8' target="_blank"><img src='https://smartwm.ru/bundles/sitesmartwm/img/referral-img.png' alt='Обменник smartwm.ru' width='88' height='45'/></a></div>
-    <div class="banner"><a href="https://liteobmen.com/?4462" target="_blank"><img src="https://liteobmen.com/public/pages/resources/banners/88.png" alt="Обменник liteobmen.com" /></a></div>
-    <div class="banner requisites"><p><a href="./source/Реквизиты%20Textmediary.pdf" target="_blank" >реквизиты</a></p></div>
+    <div class="banner pricelist"><p><a href="./source/Прайс-лист%20Textmediary.pdf" target="_blank">&nbspпрайс-лист</a></p></div>
+    <div class="banner no_select"><a href="//passport.webmoney.ru/asp/certview.asp?wmid=300909355741" target="_blank"><img src="https://files.webmoney.ru/files/5xtc9oj4/inline" border="0"/></a></div>
+    <div class="banner no_select"><a href='https://smartwm.ru/referral/8c7088b263a8' target="_blank"><img src='https://smartwm.ru/bundles/sitesmartwm/img/referral-img.png' alt='Обменник smartwm.ru' width='88' height='45'/></a></div>
+    <div class="banner no_select"><a href="https://liteobmen.com/?4462" target="_blank"><img src="https://liteobmen.com/public/pages/resources/banners/88.png" alt="Обменник liteobmen.com" /></a></div>
+    <div class="banner no_select"><a href="//www.liveinternet.ru/click" target="_blank"><img id="licnt00D7" width="88" height="31" style="border:0" title="LiveInternet: показано число просмотров за 24 часа, посетителей за 24 часа и за сегодня" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7" alt=""/></a>
+        <script>(function(d,s){d.getElementById("licnt00D7").src=
+            "//counter.yadro.ru/hit?t12.6;r"+escape(d.referrer)+
+            ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+            (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+            ";h"+escape(d.title.substring(0,150))+";"+Math.random()})
+            (document,screen)
+        </script>
+    </div>
+    <div class="banner requisites"><p><a href="./source/Реквизиты%20Textmediary.pdf" target="_blank" >&nbspреквизиты&nbsp</a></p></div>
 </div>
 
 </body>
 </html>
+
+

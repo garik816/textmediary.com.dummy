@@ -14,9 +14,10 @@
 }
 
 .heading h1{
+    background: #000000;
     color: #000000; /* Цвет текста */
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-    font-size: 62%;
+    font-size: 64.3%;
     position: absolute;
     top: 90%;
     right: 17%;
@@ -24,7 +25,7 @@
     transform: translate(0%, -50%);
 }
 
-.heading logo{
+.heading name{
     color: #FFFFFF; /* Цвет текста */
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     font-size: 47px;
@@ -35,6 +36,7 @@
     transform: translate(0%, -50%);
 }
 .heading img{
+    user-select: none;
     position: absolute;
     top: 50%;
     left: 17%;
@@ -70,6 +72,7 @@
 }
 
 .message social{
+    user-select: none;
     position: absolute;
     left: 5px;
     bottom: 5px;
@@ -151,17 +154,22 @@ a {
 }
 
 .pricelist:hover {
-    background: #555555;
+    background: #666666;
 }
 
 .requisites:hover {
-    background: #555555;
+    background: #666666;
 }
 
 ::selection {
     color: #333333; /* Цвет текста */
     background: #FFFFFF; /* Цвет фона */
 }
+
+.no_select{
+    user-select: none;
+}
+
 
 img{
     padding: 1px 2px;
