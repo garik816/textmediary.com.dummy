@@ -2,6 +2,23 @@
     margin: 0;
 }
 
+.background {
+    background: url(../source/background.png) repeat fixed;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: cover;
+}
+
+/*.grid{*/
+/*    display: block;*/
+/*    background: url(../source/pixel.png);*/
+/*    position: absolute;*/
+/*    z-index: 3;*/
+/*    height: 100%;*/
+/*    width: 50%;*/
+/* }*/
+
 .heading{
     display: block;
     background: #000000; /* Цвет фона под заголовком */
