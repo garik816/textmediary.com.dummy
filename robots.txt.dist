@@ -6,4 +6,6 @@
 
 User-agent: *
 Disallow: /tmp/
+Crawl-Delay: 5
 
+Host: https://textmediary.com

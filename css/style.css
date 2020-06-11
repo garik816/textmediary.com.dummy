@@ -61,9 +61,19 @@
     transform: translate(0%, -50%);
 }
 
+.flags{
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    z-index: 10;
+}
+
 .message{
     display: block;
-    background: rgba(0, 0, 0, 0.88);
+    /*background: rgba(0, 0, 0, 0.88);*/
+    background-image: url("../source/blackoverlay-darker.png");
+    /*background-image: url("../source/blackOverlay.png");*/
     color: #FFFFFF; /* Цвет текста */
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     text-align: center;
